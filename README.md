@@ -1,3 +1,4 @@
+[![License:MIT](https://img.shields.io/github/license/TheMFjulio/Burble)](LICENSE)
 # Burble
 Just another discord bot, just made for fun
 
