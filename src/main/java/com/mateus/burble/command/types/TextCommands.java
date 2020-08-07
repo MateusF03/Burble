@@ -15,7 +15,7 @@ public class TextCommands {
     @Command(name = "say", description = "The say command")
     @ArgumentAnnotation(name = "msg", type = ArgumentType.STRING, obligatory = true)
     public void say(MessageReceivedEvent event, CommandContent translator) {
-        translator.getArgumentMap().keySet().forEach(System.out::println);
+        //translator.getArgumentMap().keySet().forEach(System.out::println);
         event.getChannel().sendMessage(translator.getArgumentElement("msg").getContent()).queue();
     }
 
